@@ -2,6 +2,7 @@
 
 Run
 ```
-docker build -t ratel-web .
-docker run -p 80:80 ratel-web
+docker-compose up -d
 ```
+
+ratel という database が初期化されますー。
